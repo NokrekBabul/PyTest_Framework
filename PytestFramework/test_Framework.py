@@ -15,6 +15,7 @@ class Test_SignIn():
         driver.quit()
         print("Test Completed")
 
+        #Please follow the link to watch the video tutorial too: https://youtu.be/c0yZAT7Z1fc
 
     def test_GoFundMeLogin_1(self, test_setUp):
         driver.get("https://gofundme.com")
